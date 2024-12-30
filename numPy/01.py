@@ -70,7 +70,7 @@ k = np.identity(5)
 
 #repeat an array
 l = np.array([[1,2,3]])
-rep = np.repeat(l,3, axis=0)
+rep = np.repeat(l,3, axis=1)
 # print(rep)
 
 #be careful while copying an array
